@@ -1,2 +1,153 @@
 
-hello publish!
+<!-- saved from url=(0048)http://sccpu2.cse.ust.hk/castle/publication.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Publications | CASTLE Lab at HKUST</title>
+		<link href="./Publications _ CASTLE Lab at HKUST_files/style.css" rel="stylesheet" type="text/css" media="all">
+		<link href="./Publications _ CASTLE Lab at HKUST_files/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+		<!-- <link href='http://fonts.useso.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.useso.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700italic,700,900,900italic' rel='stylesheet' type='text/css'> -->
+		<!-- js -->
+		<script src="./Publications _ CASTLE Lab at HKUST_files/jquery.min.js"></script>
+		<!-- //js -->
+		<!-- for-mobile-apps -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<meta name="keywords" content="Galaxy Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+		Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+				function hideURLbar(){ window.scrollTo(0,1); } </script>
+		<!-- //for-mobile-apps -->
+		<!-- start-smoth-scrolling -->
+		<script type="text/javascript" src="./Publications _ CASTLE Lab at HKUST_files/move-top.js"></script>
+		<script type="text/javascript" src="./Publications _ CASTLE Lab at HKUST_files/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		<script type="text/javascript">
+		function toggleMe(a){
+		var e=document.getElementById(a);
+		if(!e)return true;
+		if(e.style.display=="none"){
+		e.style.display="block"
+		}
+		else{
+		e.style.display="none"
+		}
+
+		var target = window.event.target;
+		if (e.style.display=="none") {
+			target.style.color="inherit";
+			target.style.backgroundColor="#fff";
+		} else {
+			target.style.color="#fff";
+			target.style.backgroundColor="#5DC9C9";
+		}
+
+		return true;
+		}
+		</script>
+<!-- start-smoth-scrolling -->
+</head>
+<body>
+	<!-- header -->
+	<div class="header">
+	<div class="container">
+		<div class="header-part">
+			<div class="head-logo">
+				<a href="http://sccpu2.cse.ust.hk/castle/index.html"><img src="./Publications _ CASTLE Lab at HKUST_files/logo.png" alt=" " height="68px"></a>
+			</div>
+			<div class="top-nav">
+				<span class="menu"><img src="./Publications _ CASTLE Lab at HKUST_files/menu.png" alt=""></span>
+					<ul class="nav1">
+						<li><a href="http://sccpu2.cse.ust.hk/castle/index.html">Home</a></li>
+						<li><a href="http://sccpu2.cse.ust.hk/castle/news.html">News</a></li>
+						<li><a href="http://sccpu2.cse.ust.hk/castle/project.html">Projects</a></li>
+						<li><a href="http://sccpu2.cse.ust.hk/castle/publication.html">Publications</a></li>
+						<li><a href="http://sccpu2.cse.ust.hk/castle/people.html">People</a></li>
+						<li><a href="http://sccpu2.cse.ust.hk/castle/awards.html">Awards</a></li>
+					</ul>
+					<script> 
+							   $( "span.menu" ).click(function() {
+								 $( "ul.nav1" ).slideToggle( 300, function() {
+								 // Animation complete.
+								  });
+								 });
+							
+					</script>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	</div>
+	<!-- //header -->
+	<div class="container publication-content">
+		<h4>
+			Selected Publications
+		</h4>
+		<ul>
+			<span class="venue"><b>TSE<br>2018<br></b></span>
+			<li>
+				Ming Wen, Rongxin Wu, Shing-Chi Cheung. How Well Do Change Sequences Predict Defects? Sequence Learning from Software Changes. In IEEE Transactions on Software Engineering 2018. To Appear.
+				<br>
+				<button onclick="return toggleMe(&#39;cite_TSE2018_ming&#39;)">BibTex</button>
+				<button onclick="return toggleMe(&#39;abstract_TSE2018_ming&#39;)">Abstract</button>
+				<button><a href="http://sccpu2.cse.ust.hk/castle/materials/TSE18-ming.pdf">Paper</a></button>
+			</li>
+			<div class="clearfix margin_20"></div>
+			<div id="cite_TSE2018_ming" style="display: none;">
+				<pre style="overflow: auto">@ARTICLE{8493303,
+author={Ming Wen and Rongxin Wu and Shing-Chi Cheung},
+journal={IEEE Transactions on Software Engineering},
+title={How Well Do Change Sequences Predict Defects? Sequence Learning from Software Changes},
+year={2018},
+volume={},
+number={},
+pages={1-1},
+doi={10.1109/TSE.2018.2876256},
+ISSN={0098-5589},
+month={},}
+				</pre>
+			</div>
+
+			<div id="abstract_TSE2018_ming" style="display:none">
+				<br>
+				<b>Abstract</b><br>
+				Software defect prediction, which aims to identify defective modules, can assist developers in finding bugs and prioritizing limited quality assurance resources. Various features to build defect prediction models have been proposed and evaluated. Among them, process metrics are one important category. Yet, existing process metrics are mainly encoded manually from change histories and ignore the sequential information arising from the changes during software evolution. Unlike traditional process metrics used for existing defect prediction models, change sequences are mostly vectors of variable length. This makes it difficult to apply such sequences directly in prediction models that are driven by conventional classifiers. To resolve this challenge, we utilize Recurrent Neural Network (RNN), which is a deep learning technique, to encode features from sequence data automatically. In this paper, we propose a novel approach called Fences, which extracts six types of change sequences covering different aspects of software changes via fine-grained change analysis. It approaches defects prediction by mapping it to a sequence labeling problem solvable by RNN. Our evaluations on 10 open source projects show that Fences can predict defects with high performance. Fences also outperforms the state-of-the-art technique which learns semantic features automatically from static code via deep learning.
+				<br>
+				<br>
+				<br>
+			</div>
+
+			<!-- one publication item ends -->
+
+			
+            
+        </ul>
+	</div>
+
+
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+									$(document).ready(function() {
+										
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+	</script>
+<!-- //here ends scrolling icon -->
+
+
+<a href="http://sccpu2.cse.ust.hk/castle/publication.html#" id="toTop" style="display: none;"><span id="toTopHover"></span>To Top</a></body></html>
